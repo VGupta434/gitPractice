@@ -1,5 +1,5 @@
-#GIT practice repo
-##This is a demo project to practice git commands
+# GIT practice repo
+## This is a demo project to practice git commands
 *this is an italic text*
 **this is a bold text**
 ~~this is a strikethrough text~~
