@@ -14,3 +14,10 @@ this is an <ins>underlined</ins> text<br>
 ssh-keygen -t rsa -b 4096 -C "\<your github email address\>" <br>
 -t = type of encryption<br>
 -b = strength of the encrypted key (no. of bits) <br>
+
+## git branching
+by default main/master branch is the only branch, it's the main branch on which we are working<br>
+### 1. creating a new branch
+git checkout -b \<new branch name\>
+### 2. switching to another branch
+git checkout \<branch name\>
