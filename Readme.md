@@ -8,6 +8,20 @@
 this is a <sub>subscript</sub> text<br>
 this is a <sup>superscript</sup> text<br>
 this is an <ins>underlined</ins> text<br>
+<hr>
+
+## Tracking changes on git repository
+### 1. Initializing a git repository
+cd \<git repo folder\><br>
+git init<br>
+### 2. staging the changes
+git add \<file name\><br>
+git add . (. adds all the files changed in current directory)<br>
+git add --all (adds all the changed files)<br>
+### 3. committing changes
+git commit -m "\<main commit message\>" -m "\<secondary commit message\>"<br>
+### 4. pushing changes to the remote repository
+git push origin master<br>
 
 ## generating ssh key to authenticate to github
 ### 1. generate key pair using ssh-keygen
