@@ -22,12 +22,24 @@ git add --all (adds all the changed files)<br>
 git commit -m "\<main commit message\>" -m "\<secondary commit message\>"<br>
 ### 4. pushing changes to the remote repository
 git push origin master<br>
+<hr>
 
 ## generating ssh key to authenticate to github
 ### 1. generate key pair using ssh-keygen
 ssh-keygen -t rsa -b 4096 -C "\<your github email address\>" <br>
 -t = type of encryption<br>
 -b = strength of the encrypted key (no. of bits) <br>
+<hr>
+
+## checking difference using git diff
+### checking difference b/w current work space & staging area(if no changes staged, then latest commit is in the staging area)
+git diff<br>
+### checking difference b/w staging area & localrepo latest commit(HEAD)
+git diff --staged HEAD<br>
+we can change the "HEAD" with commit id if we want to check the diff W.R.T  any other commit id<br>
+### comparing changes with different local commits
+git diff \<commit id 1\> \<commit id 2\>
+
 
 ## git branching
 by default main/master branch is the only branch, it's the main branch on which we are working<br>
