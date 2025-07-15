@@ -53,7 +53,9 @@ git checkout master<br>
 git merge \<feature branch name\><br>
 ### 4. Pull requests
 usually we dont merge directly, we push the branch to the remote git repo and raise the Pull Request(PR)<br>
-this PR will be reviewed by the reviewers and later be merged if everything is alright.
+this PR will be reviewed by the reviewers and later be merged if everything is alright.<br>
+### 5. deleting a branch after merging to the main branch
+git branch -d \<branch name\>
 <hr>
 
 ## git pull
