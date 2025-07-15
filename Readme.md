@@ -69,3 +69,10 @@ when 2 files edited in different branches are merged together, a merge conflict 
 to fix the merge conflict we use the code editors like VS code that offers merge editor & other tools to resolve the merge conflict<br>
 once merge conflict is resolved we stage the changes & commit the final merged changes to the repo
 <hr>
+
+## undoing in git
+if we ever stage or commit something by mistake, we can undo it<br>
+### unstage files
+git reset 
+### undo commit
+git reset HEAD~1
