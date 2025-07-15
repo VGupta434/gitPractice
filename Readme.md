@@ -54,6 +54,7 @@ git merge \<feature branch name\><br>
 ### 4. Pull requests
 usually we dont merge directly, we push the branch to the remote git repo and raise the Pull Request(PR)<br>
 this PR will be reviewed by the reviewers and later be merged if everything is alright.
+<hr>
 
 ## git pull
 using git pull, we can get the changes from the remote repository to our local repository<br>
