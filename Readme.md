@@ -39,7 +39,7 @@ git diff --staged HEAD<br>
 we can change the "HEAD" with commit id if we want to check the diff W.R.T  any other commit id<br>
 ### comparing changes with different local commits
 git diff \<commit id 1\> \<commit id 2\>
-
+<hr>
 
 ## git branching
 by default main/master branch is the only branch, it's the main branch on which we are working<br>
