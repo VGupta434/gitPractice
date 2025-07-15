@@ -63,3 +63,9 @@ using git pull, we can get the changes from the remote repository to our local r
 ### using git pull
 git pull origin master<br>
 <hr>
+
+## git merge conflicts
+when 2 files edited in different branches are merged together, a merge conflict occurs<br>
+to fix the merge conflict we use the code editors like VS code that offers merge editor & other tools to resolve the merge conflict<br>
+once merge conflict is resolved we stage the changes & commit the final merged changes to the repo
+<hr>
