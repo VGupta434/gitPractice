@@ -63,3 +63,5 @@ using git pull, we can get the changes from the remote repository to our local r
 ### using git pull
 git pull origin master<br>
 <hr>
+
+## git merge conflicts
