@@ -21,3 +21,10 @@ by default main/master branch is the only branch, it's the main branch on which 
 git checkout -b \<new branch name\>
 ### 2. switching to another branch
 git checkout \<branch name\>
+### 3. merging branches
+to merge a feature branch into master branch<br>
+git checkout master<br>
+git merge \<feature branch name\><br>
+### 4. Pull requests
+usually we dont merge directly, we push the branch to the remote git repo and raise the Pull Request(PR)<br>
+this PR will be reviewed by the reviewers and later be merged if everything is alright.
