@@ -75,4 +75,6 @@ if we ever stage or commit something by mistake, we can undo it<br>
 ### unstage files
 git reset 
 ### undo commit
-git reset HEAD~1
+git reset HEAD~1<br>
+**note:** the above commands will only unstage and revert the commit, they will not revert file back to it's previous state, i.e the changes made will still be there on the files, to reset the contents of the file back to the previous commit we can use
+git reset --hard \<commit id\>
